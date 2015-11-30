@@ -1,24 +1,27 @@
 /*Index.html*/
 body{
    /*background-color:#2980b9;*/
-   background-color:#2DEE07;
+   background-color:#2ecc71;
 }
 
 #randomizer{
-    margin-left:20%;
+    /*margin-left:20%;
     margin-top:20%;
     height:10em;
     width:60%;
     background-color:#3498db;
     padding: 1em 1em 1em 1em;
-    border:1em solid #3498db;
+    border:1em solid #3498db;*/
 }
 
 #header{
-    background-color:#2980b9;
+   /* background-color:#2980b9;*/
     text-align:center;
 }
 
-.btn btn-primary btn-block{
+#firstBtn{
     width:60%;
+    margin: auto;
+    background-color:#c0392b;
+    border-color:#c0392b;
 }

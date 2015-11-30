@@ -12,30 +12,20 @@
 </head>
 <body>
 
-<div class="container">
-  
-      <!-- RANDOMIZER -->
-  <div class="jumbotron">
-    <button onclick="myFunction()">Randomize!!!!!!</button> 
+  <div id="header">
+    <h1>Welcome To The Video Randomizer</h1>
   </div>
-</div>
+    
+  <div class="container">
+    
+        <!-- RANDOMIZER -->
+    <div class="jumbotron">
+      <button id="randomizer" onclick="myFunction()">Randomize!!!!!!</button> 
+    </div>
+  </div>
 
   <script>
-  function myFunction(){
-    var randomizer= document.getElementById('jumbotron');
-
-randomizer.addEventListener('ended', function(){
-this.play();
-
-var videos = [
-"/videos/jack.jpg",
-"/videos/stooges.jpg",
-], videos = videos[Math.floor(Math.random() * videos.length)];
-
-this.src = "../wp-content/videos/" + videos + ".mp4";
-
-}, false);
-};
+   
   </script>
 
 </body>

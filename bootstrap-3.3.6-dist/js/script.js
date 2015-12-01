@@ -1,2 +1,4 @@
-var images = ['squirtle.jpg', 'bulbasaur.jpg', 'pikachu.jpg'];
-$('#header').css({'background-image': 'url(images/' + images[Math.floor(Math.random() * images.length)] + ')'});
+function myFunction(){
+    var images = ['Avengers', 'DarkKnight',];
+    $('#header').css({'background-image': 'url(pics/' + images[Math.floor(Math.random() * images.length)] + ')'});
+}

@@ -25,7 +25,7 @@
   </div>
     
   <div class="container">
-     <button type="button" id="firstBtn" class="btn btn-primary btn-block">click to generate random movie</button>
+     <button onclick ="myFunction" type="button" id="firstBtn" class="btn btn-primary btn-block">click to generate random movie</button>
   </div>
   <div class="col-sm-4">
     <ul class="randList">
@@ -34,13 +34,7 @@
     </ul>
   </div>
 
-  <script>
-    $(function myFunction(){
-      $('ul.randList').each(function(){
-        $(this).find('li').shuffle();
-      });
-    });
-  </script>
+  
 
 </body>
 </html>

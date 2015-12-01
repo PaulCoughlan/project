@@ -27,3 +27,8 @@ body{
     background-color:#c0392b;
     border-color:#c0392b;
 }
+
+#imageid{
+    height:10em;
+    width:10em;
+}

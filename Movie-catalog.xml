@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<Movie> 
+<TITLE>
+Battleship Potemkin </TITLE> 
+<GENRE>DRAMA,HISTORY,WAR</GENRE> 
+<COUNTRY>SOVIET UNION</COUNTRY> 
+<COMPANY> Goskino, Mosfilm</COMPANY> 
+<DIRECTOR> Sergei M. Eisenstein</DIRECTOR> 
+<YEAR>1925</YEAR> 
+</Movie>
+</CATALOG>
+<Movie> 
+<TITLE>
+Angel and the Badman </TITLE> 
+<GENRE>Romance, Western </GENRE> 
+<COUNTRY>USA</COUNTRY> 
+<COMPANY> John Wayne Productions, Patnel Productions</COMPANY> 
+<DIRECTOR>James Edward Grant</DIRECTOR> 
+<YEAR>1947</YEAR> 
+</Movie>
+</CATALOG>

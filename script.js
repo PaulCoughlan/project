@@ -1,5 +1,6 @@
-function myFunction(){
-    var randomNumber = Math.floor(Math.random() * 12) + 1;
-    var imgName = "image" + randomNumber + ".jpg";
-    document.getElementById("imageid").src= "/pics" + "/" + imgName ;
+var imagesArray = ["pics/Avengers.jpg", "pics/evilDead.jpg", "pics/matrix.jpg", ];
+
+function imageDisplay(){
+    var rand = Math.floor(Math.random() * 3);
+     document.canvas.src = imagesArray[rand];
 }

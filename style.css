@@ -1,4 +1,6 @@
 /*Index.html*/
+
+
 body{
    /*background-color:#2980b9;*/
    background-color:#2ecc71;
@@ -28,7 +30,7 @@ body{
     border-color:#c0392b;
 }
 
-#imageid{
-    height:10em;
-    width:10em;
+#images{
+    max-height:10em;
+    max-width:10em;
 }

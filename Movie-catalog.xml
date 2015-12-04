@@ -13,7 +13,7 @@
     </Movie>
         
     <Movie> 
-        <TITLE>Kong </TITLE> 
+        <TITLE>King Kong </TITLE> 
         <GENRE>Romance, Action </GENRE> 
         <MovieNumber>2</MovieNumber>
         <COUNTRY>USA</COUNTRY> 
@@ -41,3 +41,45 @@
         <DIRECTOR>N/A </DIRECTOR> 
         <YEAR>2012</YEAR> 
     </Movie>
+    
+    
+<Movie>
+        <TITLE>Nacho Libre</TITLE> 
+        <MovieNumber>5</MovieNumber>
+        <GENRE>Action,Comedy</GENRE> 
+        <COUNTRY>USA</COUNTRY> 
+        <COMPANY>Sony</COMPANY> 
+        <DIRECTOR>N/A </DIRECTOR> 
+        <YEAR>2008</YEAR> 
+    </Movie>
+    
+    <Movie>
+        <TITLE>Crank</TITLE> 
+        <MovieNumber>6</MovieNumber>
+        <GENRE>Action</GENRE> 
+        <COUNTRY>USA</COUNTRY> 
+        <COMPANY>Sony</COMPANY> 
+        <DIRECTOR>N/A </DIRECTOR> 
+        <YEAR>2011</YEAR> 
+    </Movie>
+    
+    <Movie>
+        <TITLE>Mission Impossible</TITLE> 
+        <MovieNumber>7</MovieNumber>
+        <GENRE>Action,Comedy</GENRE> 
+        <COUNTRY>USA</COUNTRY> 
+        <COMPANY>Sony</COMPANY> 
+        <DIRECTOR>N/A </DIRECTOR> 
+        <YEAR>1998</YEAR> 
+    </Movie>
+    
+    <Movie>
+        <TITLE>Scream</TITLE> 
+        <MovieNumber>8</MovieNumber>
+        <GENRE>Horror</GENRE> 
+        <COUNTRY>USA</COUNTRY> 
+        <COMPANY>Sony</COMPANY> 
+        <DIRECTOR>N/A </DIRECTOR> 
+        <YEAR>1998</YEAR> 
+    </Movie>
+    

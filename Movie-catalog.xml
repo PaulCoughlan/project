@@ -1,21 +1,43 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
+<?xml-stylesheet type="text/xsl" href="movie.xslt"?>
+
+
 <Movie> 
 <TITLE>
-Battleship Potemkin </TITLE> 
-<GENRE>DRAMA,HISTORY,WAR</GENRE> 
-<COUNTRY>SOVIET UNION</COUNTRY> 
-<COMPANY> Goskino, Mosfilm</COMPANY> 
-<DIRECTOR> Sergei M. Eisenstein</DIRECTOR> 
-<YEAR>1925</YEAR> 
-</Movie>
-</CATALOG>
-<Movie> 
-<TITLE>
-Angel and the Badman </TITLE> 
-<GENRE>Romance, Western </GENRE> 
+Polt </TITLE> 
+<GENRE>Kids</GENRE> 
 <COUNTRY>USA</COUNTRY> 
-<COMPANY> John Wayne Productions, Patnel Productions</COMPANY> 
-<DIRECTOR>James Edward Grant</DIRECTOR> 
-<YEAR>1947</YEAR> 
+<COMPANY> Pixar</COMPANY> 
+<DIRECTOR> N/A</DIRECTOR> 
+<YEAR>2011</YEAR> 
 </Movie>
-</CATALOG>
+<Movie> 
+<TITLE>
+Kong </TITLE> 
+<GENRE>Romance, Action </GENRE> 
+<COUNTRY>USA</COUNTRY> 
+<COMPANY> Warner Brothers</COMPANY> 
+<DIRECTOR>Peter Jackson</DIRECTOR> 
+<YEAR>2006</YEAR> 
+</Movie>
+<Movie>
+<TITLE>
+Horrible Bosses</TITLE> 
+<GENRE>Comedy</GENRE> 
+<COUNTRY>USA</COUNTRY> 
+<COMPANY> 
+Sony</COMPANY> 
+<DIRECTOR>N/A </DIRECTOR> 
+<YEAR>2008</YEAR> 
+</Movie>
+<Movie>
+<TITLE>
+Avengers</TITLE> 
+<GENRE>Action</GENRE> 
+<COUNTRY>USA</COUNTRY> 
+<COMPANY> 
+Marvel</COMPANY> 
+<DIRECTOR>N/A </DIRECTOR> 
+<YEAR>2012</YEAR> 
+</Movie>
+

@@ -19,7 +19,7 @@
   <div id="header">
 
    
-    <h1>Welcome To The random movie generator</h1>
+    <h1>Welcome To The Random Movie Generator</h1>
 
   </div>
     
@@ -29,10 +29,16 @@
       <button onclick="action()" type="button" id="thirdBtn" class="btn btn-primary btn-block">Action</button>
       <button onclick="comedy()" type="button" id="fourthBtn" class="btn btn-primary btn-block">Comedy</button>
   </div>
-  <div id="images">
+  
+  <div class="col-xs-4">
+  </div>
+  
+  <div class="col-xs-4">
     <img name="canvas" />
   </div>
   
+  <div class="col-xs-4">
+  </div>
   
 
 </body>

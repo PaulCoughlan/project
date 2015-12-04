@@ -30,8 +30,11 @@ body{
     border-color:#c0392b;
 }
 
-#images{
-    max-height:10em;
-    max-width:10em;
-    margin-left:45%;
+img{
+    width:75%;
+    height:auto;
+    
 }
+
+
+

@@ -37,7 +37,7 @@ $(function(){
 });
 $(function(){
      $("#firstBtn","secondBtn","thirdBtn","fourthBtn").click(function(){
-          $("#canvas").slideDown();
+          $(".col-xs-4").slideDown();
      });
      
 });

@@ -9,7 +9,7 @@
         <COUNTRY>USA</COUNTRY> 
         <COMPANY> Pixar</COMPANY> 
         <DIRECTOR> N/A</DIRECTOR> 
-         <YEAR>2011</YEAR>  
+         <YEAR>2011</YEAR> 
     </Movie>
         
     <Movie> 
@@ -82,4 +82,83 @@
         <DIRECTOR>N/A </DIRECTOR> 
         <YEAR>1998</YEAR> 
     </Movie>
+
+ <Movie>
+        <TITLE>Evil Dead</TITLE> 
+        <MovieNumber>9</MovieNumber>
+        <GENRE>Horror</GENRE> 
+        <COUNTRY>USA</COUNTRY> 
+        <COMPANY>Sony</COMPANY> 
+        <DIRECTOR>N/A </DIRECTOR> 
+        <YEAR>1996</YEAR> 
+    </Movie>
     
+    <Movie>
+        <TITLE>Evil Dead</TITLE> 
+        <MovieNumber>9</MovieNumber>
+        <GENRE>Horror</GENRE> 
+        <COUNTRY>USA</COUNTRY> 
+        <COMPANY>Sony</COMPANY> 
+        <DIRECTOR>N/A </DIRECTOR> 
+        <YEAR>1996</YEAR> 
+    </Movie>
+    
+    <Movie>
+        <TITLE>Matrix</TITLE> 
+        <MovieNumber>10</MovieNumber>
+        <GENRE>Action</GENRE> 
+        <COUNTRY>USA</COUNTRY> 
+        <COMPANY>Sony</COMPANY> 
+        <DIRECTOR>N/A </DIRECTOR> 
+        <YEAR>1999</YEAR> 
+    </Movie>
+    
+    <Movie>
+        <TITLE>Hachet</TITLE> 
+        <MovieNumber>11</MovieNumber>
+        <GENRE>Action</GENRE> 
+        <COUNTRY>USA</COUNTRY> 
+        <COMPANY>Sony</COMPANY> 
+        <DIRECTOR>N/A </DIRECTOR> 
+        <YEAR>1999</YEAR> 
+    </Movie>
+    
+    <Movie>
+        <TITLE>Step Brothers</TITLE> 
+        <MovieNumber>12</MovieNumber>
+        <GENRE>Horror</GENRE> 
+        <COUNTRY>USA</COUNTRY> 
+        <COMPANY>Sony</COMPANY> 
+        <DIRECTOR>N/A </DIRECTOR> 
+        <YEAR>2008</YEAR> 
+    </Movie>
+    
+    <Movie>
+        <TITLE>This is the end</TITLE> 
+        <MovieNumber>13</MovieNumber>
+        <GENRE>Comedy</GENRE> 
+        <COUNTRY>USA</COUNTRY> 
+        <COMPANY>Sony</COMPANY> 
+        <DIRECTOR>N/A </DIRECTOR> 
+        <YEAR>2011</YEAR> 
+    </Movie>
+    
+    <Movie>
+        <TITLE>Dawn of The Dead</TITLE> 
+        <MovieNumber>14</MovieNumber>
+        <GENRE>Horror</GENRE> 
+        <COUNTRY>USA</COUNTRY> 
+        <COMPANY>Sony</COMPANY> 
+        <DIRECTOR>N/A </DIRECTOR> 
+        <YEAR>2001</YEAR> 
+    </Movie>
+    
+    <Movie>
+        <TITLE>Pineapple Express</TITLE> 
+        <MovieNumber>15</MovieNumber>
+        <GENRE>Comedy</GENRE> 
+        <COUNTRY>USA</COUNTRY> 
+        <COMPANY>Sony</COMPANY> 
+        <DIRECTOR>N/A </DIRECTOR> 
+        <YEAR>2007</YEAR> 
+    </Movie>

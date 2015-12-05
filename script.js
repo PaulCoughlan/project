@@ -9,19 +9,26 @@ function imageDisplay(){
 }
 
 function horror(){
-     var rand = Math.floor(Math.random() * 5);
-     document.canvas.src = horrorArray[rand];
+     var hrand = Math.floor(Math.random() * 5);
+     document.canvas.src = horrorArray[hrand];
 }
 
 function action(){
-     var rand = Math.floor(Math.random() * 5);
-     document.canvas.src = actionArray[rand];
+     var arand = Math.floor(Math.random() * 5);
+     document.canvas.src = actionArray[arand];
 }
 
 function comedy(){
-     var rand = Math.floor(Math.random() * 5);
-     document.canvas.src = comedyArray[rand];
+     var crand = Math.floor(Math.random() * 5);
+     document.canvas.src = comedyArray[crand];
 }
+
+function getxml(){
+
+    
+}
+
+
 
 $(function(){
     $("#genre").hide();

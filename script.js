@@ -22,22 +22,25 @@ function comedy(){
      var rand = Math.floor(Math.random() * 5);
      document.canvas.src = comedyArray[rand];
 }
+//jquery for sliding buttons
 $(function(){
     $("#genre").hide();
     $("#hide").hide();
        $("#show").click(function(){
         $("#genre").slideDown();
         $("#hide").slideDown();
+        $('#show').hide();
     });
     $("#hide").click(function(){
         $("#genre").slideUp();
         $("#hide").slideUp();
         $("#hide").hide();
+         $('#show').show();
     });
 });
 $(function(){
      $("#firstBtn","secondBtn","thirdBtn","fourthBtn").click(function(){
-          $(".col-xs-4").slideDown();
+          $("#canvas").slideDown();
      });
      
 });

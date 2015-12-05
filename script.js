@@ -23,3 +23,23 @@ function comedy(){
      document.canvas.src = comedyArray[rand];
 }
 
+$(function(){
+    $("#genre").hide();
+    $("#hide").hide();
+       $("#show").click(function(){
+        $("#genre").slideDown();
+        $("#hide").slideDown();
+    });
+    $("#hide").click(function(){
+        $("#genre").slideUp();
+        $("#hide").slideUp();
+        $("#hide").hide();
+    });
+});
+$(function(){
+     $("#firstBtn","secondBtn","thirdBtn","fourthBtn").click(function(){
+          $(".col-xs-4").slideDown();
+     });
+     
+});
+

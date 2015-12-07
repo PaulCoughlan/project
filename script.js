@@ -23,16 +23,39 @@ function comedy(){
      document.canvas.src = comedyArray[crand];
 }
 
-function getxml(){
 
-    
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+      myFunction(xhttp);
+    }
+  };
+  xhttp.open("GET", "Movie-catalog.xml", true);
+  xhttp.send();
 }
+function myFunction(xml) {
+  var count;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Movie Title</th><th>Genre</th></tr>";
+  var mov = xmlDoc.getElementsByTagName("Movie");
+  for (count = 0; count <mov.length; count++) { 
+    table += "<tr><td>" +
+    mov[count].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    mov[count].getElementsByTagName("GENRE")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("tableLibrary").innerHTML = table;
+}
+
 
 
 
 $(function(){
     $("#genre").hide();
     $("#hide").hide();
+    $("#libraryHide").hide();
        $("#show").click(function(){
         $("#genre").slideDown();
         $("#hide").slideDown();
@@ -46,6 +69,7 @@ $(function(){
     });
        $("#libraryBtn").click(function(){
        $("#libraryList").slideDown();
+        $("#libraryHide").show();
    });
    $("#libraryHide").click(function() {
         $("#libraryList").slideUp();

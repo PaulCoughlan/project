@@ -59,6 +59,14 @@
   <a type="application/rss+xml" href="http://ww.xul.fr/rss.xml"> 
     RSS feed for this site
   </a>
+  <br><br><br>
+  <div id="bottom_section" class="container">
   <div id="libraryDiv"></div>
+  </div>
 </body>
+<script>
+  $(document).ready(function(){
+    $("#libraryDiv").load("library.html");
+  });
+</script>
 </html>

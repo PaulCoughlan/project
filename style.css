@@ -19,8 +19,8 @@ body{
 }
 
 img{
-    width:75%;
-    height:auto;
+    width:-10em;
+    height:30em;
     
 }
 #showBtn{
@@ -70,13 +70,14 @@ img{
 #library_text{
      border-radius: 5px;
     background-color:#f39c12;
-    width:50%;
+    width:60%;
     margin:auto;
     
 }
 #description{
     color:white;
-   padding:1%;
+    width:100%;
+  
     
 }
 #libraryBtn{
@@ -100,4 +101,10 @@ table, th,tr,td{
     padding:2px;
     margin:auto;
     color:white;
+}
+
+#bottom_section{
+    height:auto;
+    margin-top:20%;
+    
 }

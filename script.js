@@ -24,17 +24,17 @@ function comedy(){
 }
 
 
-function loadDoc() {
+function reqLib() {
   var xhttp = new XMLHttpRequest();
   xhttp.onreadystatechange = function() {
     if (xhttp.readyState == 4 && xhttp.status == 200) {
-      myFunction(xhttp);
+      getMovies(xhttp);
     }
   };
   xhttp.open("GET", "Movie-catalog.xml", true);
   xhttp.send();
 }
-function myFunction(xml) {
+function getMovies(xml) {
   var count;
   var xmlDoc = xml.responseXML;
   var table="<tr><th>Movie Title</th><th>Genre</th></tr>";

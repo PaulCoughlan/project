@@ -1,4 +1,4 @@
-<?php
+<?php/*
 //get the q parameter from URL
 $q=$_GET["q"];
 
@@ -41,4 +41,4 @@ for ($i=0; $i<=2; $i++) {
   echo ("<br>");
   echo ($item_desc . "</p>");
 }
-?> 
+php?> 

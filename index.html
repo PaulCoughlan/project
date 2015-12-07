@@ -67,7 +67,19 @@
   </div>
   
   
-  <form>
+
+  <br><br><br>
+  <div id="bottom_section" class="container">
+  <div id="libraryDiv"></div>
+  <div id="addlib"></div>
+  </div>
+
+
+  
+
+  <div id="libraryDiv"></div>
+  <br><br><br>
+    <form>
 <select onchange="showRSS(this.value)">
 <option value="">Select an RSS-feed:</option>
 <option value="Google">Rotten Tomatoes</option>
@@ -78,21 +90,12 @@
 <div id="rssOutput">RSS-feed will be listed here...</div>
 
 
-  <br><br><br>
-  <div id="bottom_section" class="container">
-  <div id="libraryDiv"></div>
-  </div>
-
-
-  
-
-  <div id="libraryDiv"></div>
 </body>
 <script>
   $(document).ready(function(){
     $("#libraryDiv").load("library.html");
-    $("#login").load("login.html");
-    $("#register").load("Register.html");
+    $("#addlib").load("form.php");
+    //$("#register").load("Register.html");
   });
 </script>
 </html>

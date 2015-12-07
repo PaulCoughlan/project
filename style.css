@@ -36,8 +36,8 @@ body{
 }
 
 img{
-    width:-10em;
-    height:30em;
+    width:30%;
+    height:auto;
     
 }
 #showBtn{
@@ -130,4 +130,7 @@ table, th,tr,td{
     height:auto;
     margin-top:20%;
     
+}
+#addlib{
+    margin: auto;
 }

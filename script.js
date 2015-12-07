@@ -44,11 +44,11 @@ $(function(){
         $("#hide").hide();
          $('#show').show();
     });
-});
-$(function(){
-     $("#firstBtn","secondBtn","thirdBtn","fourthBtn").click(function(){
-          $("#canvas").slideDown();
-     });
-     
+       $("#libraryBtn").click(function(){
+       $("#libraryList").slideDown();
+   });
+   $("#libraryHide").click(function() {
+        $("#libraryList").slideUp();
+   })
 });
 

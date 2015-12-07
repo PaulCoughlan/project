@@ -66,3 +66,38 @@ img{
     margin-bottom:1em;
 }
 
+
+#library_text{
+     border-radius: 5px;
+    background-color:#f39c12;
+    width:50%;
+    margin:auto;
+    
+}
+#description{
+    color:white;
+   padding:1%;
+    
+}
+#libraryBtn{
+    text-align:center;
+        width:40%;
+    margin: auto;
+    background-color:#c0392b;
+    border-color:#c0392b;
+    margin-top:1em;
+    margin-bottom:1em;
+}
+#libraryList{
+    margin: auto;
+    width:19em;
+    border-radius: 10px;
+    background-color:#9b59b6;
+    
+}
+table, th,tr,td{
+   border: 1px solid black;
+    padding:2px;
+    margin:auto;
+    color:white;
+}

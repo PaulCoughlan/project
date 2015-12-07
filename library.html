@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  
+  <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.min.css">
+   <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+  <script src="bootstrap-3.3.6-dist/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  </head>
+  <body>
+       <br>
+        <br>
+      <div id="library_text">
+         
+      <p id="description" class="text-center">If you are sick of playing the game and just want to see the entire collection here is the library</p>
+      </div>
+      <button onclick="loadDoc()" type="button" id="libraryBtn" class="btn btn-primary btn-block">click to view library</button>
+      <div id="libraryList">
+       <table id="tableLibrary"></table>
+       <button type="button" id="libraryHide" class="btn btn-primary btn-block">click to hide library</button>
+      </div>
+  </body>
+   <script>
+
+function loadDoc() {
+  var xhttp = new XMLHttpRequest();
+  xhttp.onreadystatechange = function() {
+    if (xhttp.readyState == 4 && xhttp.status == 200) {
+      myFunction(xhttp);
+    }
+  };
+  xhttp.open("GET", "Movie-catalog.xml", true);
+  xhttp.send();
+}
+function myFunction(xml) {
+  var count;
+  var xmlDoc = xml.responseXML;
+  var table="<tr><th>Movie Title</th><th>Genre</th></tr>";
+  var mov = xmlDoc.getElementsByTagName("Movie");
+  for (count = 0; count <mov.length; count++) { 
+    table += "<tr><td>" +
+    mov[count].getElementsByTagName("TITLE")[0].childNodes[0].nodeValue +
+    "</td><td>" +
+    mov[count].getElementsByTagName("GENRE")[0].childNodes[0].nodeValue +
+    "</td></tr>";
+  }
+  document.getElementById("tableLibrary").innerHTML = table;
+}
+
+   </script>
+  </html>

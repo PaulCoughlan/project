@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
 <?xml-stylesheet type="text/xsl" href="movie.xslt"?>
 
-
+<library>
     <Movie> 
         <TITLE>Polt </TITLE> 
         <GENRE>Kids</GENRE> 
@@ -162,3 +162,4 @@
         <DIRECTOR>N/A </DIRECTOR> 
         <YEAR>2007</YEAR> 
     </Movie>
+</library>

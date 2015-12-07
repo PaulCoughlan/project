@@ -131,6 +131,12 @@ table, th,tr,td{
     margin-top:20%;
     
 }
+<<<<<<< HEAD
 #addlib{
     margin: auto;
+=======
+
+#rssOutput{
+    float:right;
+>>>>>>> 5126f937238a94580fb8316c74ade37b4c4a86de
 }

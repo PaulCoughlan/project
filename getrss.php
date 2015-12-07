@@ -1,10 +1,7 @@
-<<<<<<< HEAD
-<?php/*
-//get the q parameter from URL
-=======
-<?php
 
->>>>>>> 5126f937238a94580fb8316c74ade37b4c4a86de
+<?php
+/*
+
 $q=$_GET["q"];
 
 if($q=="Rotten") {
@@ -45,4 +42,4 @@ for ($i=0; $i<=2; $i++) {
   echo ("<br>");
   echo ($item_desc . "</p>");
 }
-php?> 
+ph?> 

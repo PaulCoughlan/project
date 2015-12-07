@@ -68,9 +68,19 @@
     RSS feed for this site
   </a>
 
+  <br><br><br>
+  <div id="bottom_section" class="container">
+  <div id="libraryDiv"></div>
+  </div>
+
+
   
 
   <div id="libraryDiv"></div>
-
 </body>
+<script>
+  $(document).ready(function(){
+    $("#libraryDiv").load("library.html");
+  });
+</script>
 </html>

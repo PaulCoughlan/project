@@ -3,9 +3,9 @@
 $q=$_GET["q"];
 
 //find out which feed was selected
-if($q=="Google") {
+if($q=="Rotten") {
   $xml=("http://www.rottentomatoes.com/syndication/rss/in_theaters.xml");
-} elseif($q=="NBC") {
+} elseif($q=="Meta") {
   $xml=("http://www.metacritic.com/rss/movies");
 }
 

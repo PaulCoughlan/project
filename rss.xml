@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding ="utf-8"?>
-AddType application/x-httpd-php .xml
+<RemoveHandler .html .htm/>
+<AddType application/x-httpd-php .php .htm .html />
 <rss version="2.0">
    
 <channel>
    <title>Random Movie Generator</title> 
-   <link>https://frozen-headland-8360.herokuapp.com/</link>
+   <link>http://www.imdb.com/title/tt0117571/?ref_=fn_al_tt_2</link>
    <description>Generates a Random Movie</description>
    
    <item>
        <title>Added Scream</title>
-       <link>https://frozen-headland-8360.herokuapp.com/</link>
+       <link>http://www.imdb.com/title/tt0117571/?ref_=fn_al_tt_2</link>
        <language>en-uk</language>
        <pubDate>>Sat, 5 Dec 2010 14:23:10 GMT</pubDate>
        <description>Added the movie Scream</description>

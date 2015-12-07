@@ -7,16 +7,20 @@ body{
 
 #login{
     float:right;
-    height:15%;
-    width:20%;
-    background-color:red;
+    
+    background-color:#2980b9;
+    margin-right:2em;
+    border-color:#2980b9;
+    
 }
 
 #register{
     float:right;
-    height:15%;
-    width:20%;
-    background-color:red;
+    
+    background-color:#2980b9;
+    margin-right:2em;
+    border-color:#2980b9;
+    
 }
 
 #header{

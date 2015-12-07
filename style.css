@@ -131,3 +131,7 @@ table, th,tr,td{
     margin-top:20%;
     
 }
+
+#rssOutput{
+    float:right;
+}

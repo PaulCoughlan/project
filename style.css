@@ -5,7 +5,19 @@ body{
    background-color:#1abc9c;
 }
 
+#login{
+    float:right;
+    height:15%;
+    width:20%;
+    background-color:red;
+}
 
+#register{
+    float:right;
+    height:15%;
+    width:20%;
+    background-color:red;
+}
 
 #header{
     text-align:center;

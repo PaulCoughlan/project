@@ -15,8 +15,7 @@
   
 </head>
 <body>
-
-  <div id="header">
+  
 
    
     <h1>Welcome To The Random Movie Generator</h1>
